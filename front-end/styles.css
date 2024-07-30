@@ -1,0 +1,300 @@
+nav ul{
+
+    list-style-type: none;
+    text-align: right;
+    font-weight: 800;
+    font-size: 25px;
+   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 50px;
+   
+}
+
+.sign{
+    border-style: hidden;
+    width: 170px;
+    height: 70px;
+    top: 99px;
+    left: 1670px;
+    gap: 0px;
+    border-radius: 30px;
+    font-size: 22px;
+    
+    
+}
+
+
+
+
+
+.one{
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 60.45px;
+    text-align: left; 
+    margin-left: 30px;
+
+}
+
+.two{
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    line-height: 5px;
+    text-align: left;
+    font-weight: 200;
+    text-transform: capitalize; 
+    margin-left: 30px;
+    
+
+
+}
+
+body{
+    background-repeat: no-repeat;
+    color:white;
+    font-size:32px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+      
+}
+
+.homepage{
+    background-image: url(Images/figma.jpg);
+}
+
+#we{
+
+    left: 97px;
+    width: 616px;
+    top: 508px;
+    left: 97px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 30px;
+    
+        
+}
+
+.health{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.contact_us{
+    width: 170px;
+    height: 70px;
+    top: 863px;
+    left: 166px;
+    gap: 0px;
+    border-radius: 30px ;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.service-container, .therapist-container, .blogs-section{
+    background-color: #d9d9d9;
+
+}
+
+.three, .head-4{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 116.18px;
+    color: black; 
+}
+
+#service-1 , #service-2 , #service-3, #service-4, #service-5, #service-6 {
+    border: 1px solid black;
+    width: 500px;
+    height: 342px;
+    top: 360px;
+    left: 75px;
+    border-radius: 10px ;
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    margin-right: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+
+}
+
+.learn-more-btn{
+    width: 208px;
+    height: 35px;
+    top: 620px;
+    left: 136px;
+    border-radius: 20px ;
+    font-family: sans-serif;
+    font-weight: 200;
+}
+
+.line-one, .line-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.people-section, #social-media{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
+    height: auto; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.people-section img{
+    width: 1000%;
+    max-width: 320px;
+    height: auto;
+    object-fit: cover;
+    margin:0 20px;
+}
+
+section{
+    margin: 0;
+    padding: 0;
+}
+
+
+.Jane-social, .Joel-social, .Peter-social{
+    background-color: white;
+    color: black;
+    width: 320px;
+    height: 207px;
+    top: 767px;
+    left: 74px;
+    border-radius: 10px;
+    border: 1px solid black;
+    opacity: 0px;
+    font-size: 16px;
+    text-align: center;
+    
+
+
+}
+
+.Jane-social img, .Joel-social img, .Peter-social img{
+    width: 30px;
+    height: auto;
+    margin: 5px;
+}
+
+
+.blog-text{
+    font-family: Inria Serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 28.78px;
+    text-align: center;
+    color: black; 
+
+}
+
+.article{
+    width: 400px;
+    height: 550px;
+    top: 278px;
+    left: 71px;
+    border: 1px solid black;
+    margin-left: 30px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+
+.head-blog{
+    color: black;
+    text-align: center;
+    font-family: Inter, sans-serif;
+    font-size: 24px;
+    top:auto;
+    bottom: auto;
+}
+
+.article img{
+    width: 280px;
+    height: 280px;
+    top: 300px;
+    left: 300px;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+
+}
+
+.read-more{
+        width: 130px;
+        height: 40px; 
+        border-radius: 15px;
+        background-color: #2CADCA;
+        color: blanchedalmond;
+        text-decoration: none; 
+        font-family: sans-serif;
+        font-size: 20px;
+        cursor: pointer; 
+        margin: 10px auto; 
+        display: block; 
+    
+    
+}
+
+.blogs-part{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 95%; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+
+.head-title{
+    font-family: Inter;
+    font-size: 96px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 116.18px;
+    text-align: center;   
+    color: black; 
+}
+
+
+.hidden-content {
+    display: none;
+}
+
+.hidden-content.show {
+    display: block;
+}
+
+
+
+.custom-icon{
+    margin-top: 5px;
+}
+
