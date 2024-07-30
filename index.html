@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HeartHeal App</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="homepage">
+    <header>
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Review</a></li>
+                <li><a href="therapists.html">Therapists</a></li>
+                <li><a href="blogs.html">Blogs</a></li>
+                <li><button  class="sign" >Sign  Up</button></li>
+            </ul>
+    
+        </div>
+    </nav>
+    </header>
+
+    <section>
+        <h1 class="one"><b>Mental Health</b></h1>
+        <h1 class="two">Support App</h1>
+
+
+        <p id="we">We're here because <br />
+        you're here</p>
+
+
+        <p class="health"> Providing health  care services to<br /> those in and out</p>
+    </section>
+
+
+    <section>
+        <button class="contact_us">Contact  Now</button>
+    </section>
+
+    <script>
+        // JavaScript to handle button clicks
+        document.addEventListener('DOMContentLoaded', () => {
+            // Handle Sign Up button click
+            const signUpButton = document.querySelector('.sign');
+            signUpButton.addEventListener('click', () => {
+                alert('Sign Up form will be available soon!');
+            });
+
+            // Handle Contact Now button click
+            const contactButton = document.querySelector('.contact_us');
+            contactButton.addEventListener('click', () => {
+                alert('Contact form will be available soon!');
+            });
+        });
+    </script>
+                 
+</body>
+</html>    
