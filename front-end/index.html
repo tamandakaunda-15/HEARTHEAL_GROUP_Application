@@ -4,59 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HeartHeal App</title>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="index.css" />
 </head>
-<body class="homepage">
+<body class="body">
     <header>
-    <nav>
-        <div class="container">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Review</a></li>
-                <li><a href="therapists.html">Therapists</a></li>
-                <li><a href="blogs.html">Blogs</a></li>
-                <li><button  class="sign" >Sign  Up</button></li>
-            </ul>
-    
-        </div>
-    </nav>
+        <nav class="navigation">
+            <div class="container">
+                <div class="logo">
+                    <a href="/">
+                        <img src="use-now.png" alt="HeartHeal Logo">
+                    </a>
+                </div>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="service.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Review</a></li>
+                    <li><a href="therapists.html">Therapists</a></li>
+                    <li><a href="blogs.html">Blogs</a></li>
+                    <li>
+                        <a href="Login.html" class="navigation-button">Get Started</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
     </header>
-
-    <section>
-        <h1 class="one"><b>Mental Health</b></h1>
-        <h1 class="two">Support App</h1>
-
-
-        <p id="we">We're here because <br />
-        you're here</p>
-
-
-        <p class="health"> Providing health  care services to<br /> those in and out</p>
-    </section>
-
-
-    <section>
-        <button class="contact_us">Contact  Now</button>
-    </section>
-
-    <script>
-        // JavaScript to handle button clicks
-        document.addEventListener('DOMContentLoaded', () => {
-            // Handle Sign Up button click
-            const signUpButton = document.querySelector('.sign');
-            signUpButton.addEventListener('click', () => {
-                alert('Sign Up form will be available soon!');
-            });
-
-            // Handle Contact Now button click
-            const contactButton = document.querySelector('.contact_us');
-            contactButton.addEventListener('click', () => {
-                alert('Contact form will be available soon!');
-            });
-        });
-    </script>
-                 
+    <main class="homepage">
+        <div class="section1">
+            <h1 class="h1">Heal your heart.</h1>
+            <p class="paragraph">Your journey to wellness starts here. Providing wellness services to those in and out.</p>
+            <ul>
+                <li>
+                    <a href="#" class="navigation-button">Get Started</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+  
+    <footer class="footer">
+        <p class="copy-symbol">&copy;2024 HeartHeal, all rights reserved</p>
+        <section>
+            <div class="Quick">
+        <h2>Quick Links</h2>
+        <p><a href="index.html">Home</a></p>
+        <p><a href="service.html">Service</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="#">Review</a></p>
+        <p><a href="therapists.html">Therapist</a></p>
+        <p><a href="blogs.html">Blog</a></p>
+    </div>
+            <div class="Services">
+        <h2>Our Services</h2>
+        <p><a href="#">Mindfulness</a></p>
+        <p><a href="#">Educational Resources</a></p>
+        <p><a href="#">Wellness Programs</a></p>
+        <p><a href="#">Meditation</a></p>
+        <p><a href="#">Support Groups</a></p>
+        <p><a href="#">Consultations</a></p>
+    </div>
+          <div class="Contact">
+        <h2>Contacts Info</h2>
+        <p><a href="#">+250 788 666 23</a></p>
+        <p><a href="#">+250 780 065 13</a></p>
+        <p><a href="#">mindcare@gmail.com</a></p>
+        <p><a href="#">healthdevops@gmail.com</a></p>
+        <p><a href="#">Bumbogo, KK509ST</a></p>
+        <p><a href="#">Kigali, Rwanda</a></p>
+    </div>
+    <div class="Follow">
+        <h2>Follow Us</h2>
+        <p><a href="#">Facebook</a></p>
+        <p><a href="#">Twitter</a></p>
+        <p><a href="#">Instagram</a></p>
+        <p><a href="#">Linkedin</a></p>
+        <p><a href="#">Pinterest</a></p>
+    </div>
+</section>
+    </footer>
 </body>
-</html>    
+</html>
