@@ -9,12 +9,13 @@ nav ul{
 
 nav ul li a{
     text-decoration: none;
-    color: antiquewhite;
+    color: black;
+    font-family: sans-serif;
 }
 
 nav ul li{
     display: inline;
-    margin-right: 50px;
+    margin-right: 55px;
    
 }
 
@@ -31,81 +32,6 @@ nav ul li{
     
 }
 
-
-
-
-
-.one{
-    text-transform: capitalize;
-    font-family: 'Inter', sans-serif;
-    font-size: 64px;
-    font-weight: 800;
-    line-height: 60.45px;
-    text-align: left; 
-    margin-left: 30px;
-
-}
-
-.two{
-    font-family: 'Inter', sans-serif;
-    font-size: 64px;
-    line-height: 5px;
-    text-align: left;
-    font-weight: 200;
-    text-transform: capitalize; 
-    margin-left: 30px;
-    
-
-
-}
-
-body{
-    background-repeat: no-repeat;
-    color:white;
-    font-size:32px;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: 'Inter', sans-serif;
-    overflow-x: hidden;
-    margin: 0;
-    padding: 0;
-      
-}
-
-.homepage{
-    background-image: url(Images/figma.jpg);
-}
-
-#we{
-
-    left: 97px;
-    width: 616px;
-    top: 508px;
-    left: 97px;
-    font-size: 40px;
-    font-weight: 700;
-    margin-left: 30px;
-    
-        
-}
-
-.health{
-    font-size: 25px;
-    margin-left: 30px;
-}
-
-.contact_us{
-    width: 170px;
-    height: 70px;
-    top: 863px;
-    left: 166px;
-    gap: 0px;
-    border-radius: 30px ;
-    font-size: 20px;
-    margin-left: 30px;
-    margin-bottom: 30px;
-}
 
 .service-container, .therapist-container, .blogs-section{
     background-color: #d9d9d9;
@@ -133,6 +59,7 @@ body{
     background-color: white;
     color: black;
     font-size: 16px;
+    font-family: sans-serif;
     margin-right: 15px;
     margin-left: 20px;
     margin-bottom: 15px;
@@ -193,6 +120,7 @@ section{
     opacity: 0px;
     font-size: 16px;
     text-align: center;
+    font-family: sans-serif;
     
 
 
@@ -297,4 +225,3 @@ section{
 .custom-icon{
     margin-top: 5px;
 }
-
