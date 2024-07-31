@@ -88,8 +88,9 @@ button {
     gap: 5rem;
     margin-left: 200px;
     margin-top: 40px;
-    color: black;
+    color: #113b66;
     font-family: sans-serif;
+    font-size: 20px;
 }
 
 nav ul{
