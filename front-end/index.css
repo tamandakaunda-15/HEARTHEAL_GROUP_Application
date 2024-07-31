@@ -1,0 +1,293 @@
+body {
+    background-image: url(https://images.unsplash.com/photo-1551847677-dc82d764e1eb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
+    padding-top: 0;
+}
+
+
+header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between logo and nav */
+    align-items: center; /* Center items vertically */
+    padding: 5px 20px ; /* Add padding around the header */
+    background-color: #113b66; /* Background color for the header */
+    max-height: 110px; /* Set a maximum height for the header */
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+}
+
+.container {
+    display: flex; /* Use flexbox for the container */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Full width */
+}
+
+.logo img {
+    width: 120px; /* Adjust the width of the logo */
+    height: auto; /* Adjust the height of the logo */
+    object-fit: contain; /* Maintain aspect ratio */
+    margin-right: 20px; /* Space between logo and navigation */
+}
+
+
+nav {
+    flex-grow: 1; /* Allow the nav to grow and take available space */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    display: flex; /* Use flexbox for horizontal layout */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    justify-content: flex-end; /* Align items to the right */
+    font-weight: 700; /* Font weight */
+    font-size: 20px; /* Font size */
+    font-family: 'Libre Franklin', sans-serif; /* Font family */
+}
+
+nav ul li {
+    margin-right: 50px; /* Space between items */
+}
+
+nav ul li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: antiquewhite; /* Link color */
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.one{
+    text-transform: capitalize;
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 60.45px;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.two{
+    font-family: 'Inter', sans-serif;
+    font-size: 64px;
+    line-height: 5px;
+    text-align: left;
+    font-weight: 200;
+    text-transform: capitalize;
+    margin-left: 30px;
+}
+
+
+
+.homepage{
+    color:white;
+    font-size:32px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Inter', sans-serif;
+    margin-bottom: 60px;
+    margin-top: 60px;
+    padding: 0;
+    height: 100%;
+    flex: 1;
+    padding-top: 110px;
+
+}
+
+#we{
+
+    left: 97px;
+    width: 616px;
+    top: 508px;
+    left: 97px;
+    font-size: 40px;
+    font-weight: 700;
+    margin-left: 30px;
+   
+       
+}
+
+.health{
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+/** CSS for the footer */
+.Quick h2,
+.Services h2,
+.Contact h2,
+.Follow h2 {
+    font-size: 16px;
+    font-weight: 700;
+    font-style: initial;
+    font-family: sans-serif;
+    color: #113b66;
+}
+
+.Quick,
+.Services,
+.Contact,
+.Follow {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    font-weight: 100;
+    font-style: normal;
+    font-family: sans-serif;
+    color: #113b66;
+}
+
+.Quick a,
+.Services a,
+.Contact a,
+.Follow a {
+    text-decoration: none;
+    color: #113b66;
+}
+
+
+.footer section {
+    display: flex; /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between sections */
+    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer div {
+    flex: 1; /* Allow each div to grow equally */
+    min-width: 100px; /* Minimum width for each section */
+    margin-left: 90px; /* Margin between sections */
+    margin-top: 20px;
+}
+
+
+
+/** new content **/
+
+body .h1 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-family: Libre Franklin;
+    color: #e0e0e9 ;
+    font-size: 72px;
+    line-height: 78px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    font-size: 72px;
+    text-align: center;
+    height: 78px;
+    margin-left: 70px;
+  }
+
+ body .paragraph {
+    font-family: IBM Plex Mono, sans-serif;
+    color: #efeff7 ;
+    font-size: 25px;
+    line-height: 24px;
+    font-weight: 400;
+    text-align: center;
+  }
+
+
+  html, body {
+    height: 100%; /* Ensure the body takes full height */
+    margin: 0; /* Remove default margin */
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+}
+  
+  .navigation-button {
+    margin-left: 15px;
+    border: 2px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    transition: background-color 200ms ease, color 200ms ease;
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 600;
+    padding: 6px 12px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+  
+  .navigation-button:hover {
+    background-color: white;
+    color: black;
+  }
+  
+  .navigation-button.medium {
+    width: 75%;
+    margin: 20px 30px;
+    padding: 10px 20px; /* Increase padding for medium size */
+}
+
+
+
+h1.h1 {
+    margin-top: 70px;            
+    margin-bottom: 10px;        
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;               
+    font-size: 72px;            
+    line-height: 78px;          
+    font-weight: 800;          
+    letter-spacing: -1px;     
+}
+
+
+  .section1 {
+    
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    flex:1;
+}
+
+
+.paragraph {
+    font-family: IBM Plex Mono, sans-serif;
+    color: white;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+
+  }
+
+
+ 
+ 
+
+  .copy-symbol {
+    margin-top: 15px;
+    font-family: Libre Franklin ,sans-serif;
+    color: #113b66;
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 200;
+    text-align: center;
+  }
+
+  
+ .footer {
+        position: relative; /* or absolute */
+        width: 100%; /* Set height as needed */
+        background-color:white; 
+    }
+  
